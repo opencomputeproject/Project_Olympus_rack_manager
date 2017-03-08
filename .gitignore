@@ -1,0 +1,16 @@
+*.pyc
+*.pyo
+*.swp
+*.orig
+*.rej
+*~
+*.o
+*.d
+*.a
+*.so
+*.so.*
+ocs/*/bin
+ocs/*/obj
+ocs/*/lib
+.*project
+.settings

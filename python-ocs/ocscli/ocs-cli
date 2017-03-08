@@ -1,0 +1,10 @@
+#!/bin/sh
+
+OCSCLI_PATH="/usr/bin/ocscli/"
+
+if [ -e /usr/bin/ocscli/ocsshell.py ]; then
+	cd $OCSCLI_PATH
+        python ocsshell.py $*
+fi
+
+

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+WCSCLI_PATH="/usr/bin/wcscli/"
+
+if [ -e /usr/bin/wcscli/wcs_shell.py ]; then
+	cd $WCSCLI_PATH
+        python wcs_shell.py
+fi
+
+
